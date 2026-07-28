@@ -1,10 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import App from "./App";
-import Header from "/components/header";
-import About from "/components/about";
-import ArticleList from "/components/article-list";
-import Article from "/components/article";
+import Header from "./components/header";
+import About from "./components/about";
+import ArticleList from "./components/article-list";
+import Article from "./components/article";
 
 // --- App: smoke test that everything renders together -----------------
 describe("App", () => {

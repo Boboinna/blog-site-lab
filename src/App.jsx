@@ -1,7 +1,8 @@
+// App.jsx
 import './App.css'
-import Header from '/components/header'
-import About from '/components/about'
-import ArticleList from '/components/article-list'
+import Header from './components/header'
+import About from './components/about'
+import ArticleList from './components/article-list'
 
 function App() {
   const BlogName = "My Blog"
@@ -33,14 +34,13 @@ function App() {
       {/* Navbar/Header */}
       <Header name={BlogName} />
 
-      <div class="main">
+      <div className="main">
         {/* About */}
         <About image={image} about={about} />
 
         {/* Article list with articles inside */}
         <ArticleList posts={posts} />
       </div>
-
     </>
   )
 }

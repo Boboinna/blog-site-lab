@@ -2,9 +2,9 @@ import Article from './article'
 
 function ArticleList({ posts }) {
   return (
-    <main class="article-list">
+    <main className="article-list">
       {posts.map((post) => (
-        <Article 
+        <Article
           key={post.id}
           title={post.title}
           date={post.date}

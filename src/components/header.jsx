@@ -1,6 +1,6 @@
 export default function Header({ name }) {
   return (
-    <header class="nav">
+    <header className="nav">
       <h1>{name}</h1>
     </header>
   )

@@ -63,11 +63,11 @@ npm test
 │   ├── App.test.jsx
 │   ├── index.css
 │   ├── main.jsx
+│   └── components/
+│       ├── header.jsx
+│       ├── about.jsx
+│       ├── article-list.jsx
+│       └── article.jsx
 ├── assets/
 │   └── Screenshot 2026-07-28 232928.png
-├── components/
-│   ├── header.jsx
-│   ├── about.jsx
-│   ├── article-list.jsx
-│   └── article.jsx
 ```
