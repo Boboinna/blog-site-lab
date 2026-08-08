@@ -1,4 +1,4 @@
-export default function Article({ title, date = "Unknown date", preview }) {
+export default function Article({ title, date = "January 1, 1970", preview }) {
   return (
     <article className="article">
       <h3>{title}</h3>

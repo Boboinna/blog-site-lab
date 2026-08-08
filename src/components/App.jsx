@@ -1,7 +1,7 @@
 import './App.css'
-import Header from './components/header'
-import About from './components/about'
-import ArticleList from './components/article-list'
+import Header from './Header'
+import About from './About'
+import ArticleList from './components/ArticleList'
 
 function App() {
   const BlogName = "My Blog"
