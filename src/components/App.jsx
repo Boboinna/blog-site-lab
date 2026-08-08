@@ -29,7 +29,7 @@ function App() {
   const about = "This blog is about me, an aspiring software developer and cyber security analyst. I will be posting about my journey, my projects and my thoughts on the tech industry. I hope you enjoy reading!"
 
   return (
-    <>
+    <div className="App">
       {/* Navbar/Header */}
       <Header name={BlogName} />
 
@@ -40,7 +40,7 @@ function App() {
         {/* Article list with articles inside */}
         <ArticleList posts={posts} />
       </div>
-    </>
+    </div>
   )
 }
 
